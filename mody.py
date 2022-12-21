@@ -10,14 +10,14 @@ def add_bg_from_local(image_file):
     f"""
     <style>
     .stApp {{
-        background-image: url(data:image/{"awesome-gif.gif"};base64,{encoded_string.decode()});
+        background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
         background-size: cover
     }}
     </style>
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('blue_bg.png')    
+add_bg_from_local('awesome-gif.gif')    
 
 
 #image = Image.open("C:/medo1.jpg")
